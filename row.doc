@@ -1,0 +1,18 @@
+array
+  .filter()   // $match
+  .reduce()   // $group
+  .map()      // $project
+
+
+The Aggregation Cheat Code
+DATA
+  ↓
+[ FILTER ]   → $match
+  ↓
+[ GROUP ]    → $group
+  ↓
+[ CALCULATE ]→ $sum, $avg, $cond, etc
+  ↓
+[ FORMAT ]   → $project
+  ↓
+RESULT
